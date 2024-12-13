@@ -1,0 +1,89 @@
+#home {
+  background: url(../imges/banner.png), #1e202b;
+  /* linear-gradient(#1e202b 50%, #1e202b 50%); */
+  background-size: 100% 50%, 100% 50%;
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  overflow: hidden;
+}
+.bgnav {
+  background-color: #1e202b;
+}
+.bg1 {
+  background: linear-gradient(#2d303d 50%, #323544 50%);
+  color: #bfc1c8;
+}
+.bg2 {
+  background-color: #323544;
+  color: #bfc1c8;
+}
+
+.bg3 {
+  background-color: #222530;
+  color: #bfc1c8;
+}
+.bgfoot {
+  background-color: #262936;
+  color: #bfc1c8;
+}
+
+#social i {
+  border-radius: 50%;
+  padding: 5%;
+  background-color: #1e202b;
+  color: #009ad8;
+  transition: all 0.25s;
+}
+
+#social i:hover {
+  background-color: #009ad8;
+  color: #fff;
+}
+
+.bginput {
+  background-color: #1e202b;
+  color: #ffffff;
+}
+
+.nav-link:hover,
+.nav-link:target {
+  border: solid 4px #009ad8;
+  color: #009ad8 !important;
+}
+
+.hugetext {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.w-10 {
+  width: 10%;
+}
+
+#contact {
+  background-color: #1e202b;
+}
+
+#pill {
+  background-color: #262936;
+}
+
+.bgDiv {
+  background-color: #262936;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+#daybody1 {
+  background-color: #262936;
+}
+#daybody2 {
+  background-color: #323544;
+}
+#dayhead1 {
+  background-color: #222530;
+}
+#dayhead2 {
+  background-color: #2d303d;
+}

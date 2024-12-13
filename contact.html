@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/indexStyle.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bgnav p-5">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-white" href="#">
+          <div class="container row">
+            <img src="imges/logo.png" alt="logo" class="img-fluid col-6" />
+            <div class="col-6">
+              <h1 class="h5">Weather</h1>
+              <span class="fs-6 text-white-50">tagline goes here</span>
+            </div>
+          </div>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul
+            class="navbar-nav d-flex justify-content-evenly column-gap-4 ms-auto mb-2 mb-lg-0"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link text-white rounded-pill"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white rounded-pill" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white rounded-pill" href="#"
+                >Live cameras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white rounded-pill" href="#">photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white rounded-pill" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="contact" class="container-fluid p-2">
+      <div class="container rounded-pill fs-6 text-white fw-lighter" id="pill">
+        <a href="./index.html" class="text-decoration-none text-white-50"
+          >home</a
+        >
+        <i class="fa fa-arrow-right"></i>
+        <span>contact</span>
+      </div>
+      <div class="container row mx-auto my-5">
+        <div class="col-md-6">
+          <div class="d-flex align-items-end bgDiv h-100 text-white-50">
+            <div>
+              <i class="fa fa-location-pin text-info"></i>
+              <span>Company Name INC. 2803 Avenue Street, Los Angeles </span
+              ><br />
+              <i class="fa fa-phone text-info"></i>
+              <span>+1 800 314 235</span>
+              <i class="fa fa-mail-bulk text-info"></i>
+              <span>contact@companyname.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 border-1 text-white">
+          <h1>Contact us</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+            consectetur inventore ducimus, facilis, numquam id soluta omnis eius
+            recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic,
+            ipsum sed!
+          </p>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="Your Name--"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmai4"
+                placeholder="company Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                id="inputPasswor4"
+                placeholder="Website"
+              />
+            </div>
+            <div class="col-12">
+              <textarea
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="message.."
+              ></textarea>
+            </div>
+            <div class="col-12 text-end">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid p-5 bgfoot">
+      <div class="container">
+        <div class="row mb-3 column-gap-5">
+          <div class="bginput col-md-8 d-flex p-2 rounded-5">
+            <input
+              type="search"
+              id="emailId"
+              placeholder="enter your email"
+              class="bginput border-0 flex-grow-1"
+            />
+            <button
+              type="button"
+              id="subscribeId"
+              class="form-control btn bg-primary text-white rounded-pill w-25"
+            >
+              subscribe
+            </button>
+          </div>
+          <div
+            id="social"
+            class="fs-5 d-flex justify-content-start align-items-center g-2 col-md-2"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+        <p>
+          Copyright 2014 Company name. Designed by elshazly. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <!--JS  -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
